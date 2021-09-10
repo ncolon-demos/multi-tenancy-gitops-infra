@@ -1,0 +1,10 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: cntk-argocd
+spec:
+  href: https://openshift-gitops-cntk-server-openshift-gitops.apps.z2g-cluster2.azure.ibm-gtmaa.dev
+  location: ApplicationMenu
+  text: ArgoCD UI CNTK GitOps
+  applicationMenu:
+    section: CNTK GitOps

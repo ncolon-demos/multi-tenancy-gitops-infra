@@ -1,0 +1,10 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: cntk-git-org
+spec:
+  href: https://github.com/ncolon-demos
+  location: ApplicationMenu
+  text: Github Organization for GitOps
+  applicationMenu:
+    section: CNTK GitOps
